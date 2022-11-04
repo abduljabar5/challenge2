@@ -1,0 +1,716 @@
+/* makes changes to everytime*/
+*   {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+:root{
+    --color:rgb(115, 181, 225)
+}
+
+@media screen and (min-width: 1400px) {
+    
+/* changes to header*/
+header{
+    padding: 7px;
+    background-color: rgb(0, 27, 47);
+}
+/*changes to menu */
+.menu{
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+    /*changes to nav menu */
+
+.head nav ul {
+    list-style-type: none;
+    margin-top: 7px;
+    margin-right: 75px;
+}
+/*changes to the links in the menu  */
+
+.head nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+    text-decoration: underline rgb(2, 69, 150);
+    color: rgb(2, 69, 150);
+    font-family: sans-serif;
+    flex-wrap: wrap;
+}
+/*changes to abduljabar */
+
+span{
+    padding: 1px;
+    background-color: var(--color);
+    padding-left: 40px;
+    font-family:sans-serif;
+    margin-left: -7px;
+    
+}
+/*changes to image */
+
+ .container{
+    position: relative;
+}
+/*changes to image */
+
+.container img{
+    width: 100%;
+    height: 300px;
+   
+  
+   
+}
+/*changes to avatar */
+
+.mypic{
+    position: absolute;
+    top: 200px;
+    width: 150px;
+    height: 150px;
+   
+}
+/*changes to subtitle */
+
+.text{
+    position: absolute;
+    top: 230px;
+    right: 100px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    background-color: var(--color);
+    font-size: 200%;
+}
+/*changes to background color */
+
+.background{
+    padding: 1000px;
+    padding-bottom: 850px;
+    padding-right: 440px;
+   top: -3px;
+   z-index: -20;
+    position: absolute;
+    background-color: rgb(178, 175, 175);
+}
+/*changes to about */
+
+.box2{
+    padding: 20px;
+    background-color: rgb(178, 175, 175);
+    position: relative;
+}
+/*changes to about */
+
+.about{
+    font-family: sans-serif;
+    font-size: 60px;
+    padding-left: 200px;
+    margin-bottom: 60px;
+    color:rgb(30, 39, 51) ;
+    
+}
+/*changes to paragraph about me */
+
+.p{
+    position: absolute;
+    padding: 20px;
+    width: 800px;
+    background-color: rgb(178, 175, 175);
+    right: 40px;
+    top: 0px;
+}
+/*changes to about */
+
+.me{
+    background-color: rgb(178, 175, 175);
+    color: rgb(178, 175, 175);
+}
+
+/*changes to black line */
+
+.vline{
+    padding: 20px;
+    width: 46px;
+    height: 220px;
+    padding-bottom: 39px;
+    padding-top: 0px;
+    position: absolute;
+    top: 15px;
+    left: 415px;
+    box-sizing: border-box;
+    
+
+}
+
+/*changes to biggest img */
+
+.firstbox{
+    background-color: rgb(12, 4, 50);
+    position: relative;
+    float: right;
+    padding: 4px;
+    background-color: rgb(115, 181, 225);
+    
+    
+}
+/*changes to big img */
+
+.firstbox img{
+    width: 946px;
+    height: 498px;
+    transition: 1s;
+    opacity: .5;
+}
+/*changes to big img  */
+
+.firstbox img:hover{
+    opacity: 1;
+    
+}
+/*changes to sub title */
+.sub2{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 23px;
+    padding-right: 100px;
+    background-color: var(--color);
+    position: absolute;
+    z-index: 30;
+    top: 320px;
+    box-sizing: border-box;
+    
+   
+}
+/*changes to work */
+
+.work{
+    padding-right: 400px;
+    padding-bottom: 985px;
+    background-color:rgb(178, 175, 175);
+   float: left;
+   text-align: center;
+}
+/*changes to "work" */
+
+.work2{
+    position: absolute;
+    left: 240px;
+    font-size: 60px;
+    font-family: sans-serif;
+    color:rgb(30, 39, 51);
+    
+}
+/*changes to img 2 */
+
+#one{
+        position: relative;
+        float: right;
+        margin: 20px;
+        width: 450px;
+        margin-right: 0px;
+    height: 190px;
+    padding: 4px;
+    background-color: var(--color);
+    }
+    #one img{
+        width: 450px;
+        height: 190px;
+        opacity: .5;
+        transition: 1s;
+    }
+    #one img:hover{
+        opacity: 1;
+    }
+/*changes to img2,3,4,5 subtitle */
+
+    .sub3{
+        position: absolute;
+        padding: 7px;
+        padding-right: 50px;
+        background-color: var(--color);
+        top: 100px;
+        font-size: 10px;
+        
+    }
+    /*changes to img3 */
+
+#two{
+    margin: 20px;
+
+    padding: 1px;
+    position: relative;
+    float: right;
+    width: 450px;
+    height: 190px;
+    padding: 4px;
+    background-color: var(--color);
+}
+#two img{
+    width: 450px;
+    height: 190px;
+    opacity: .5;
+    transition: 1s;
+}
+#two img:hover{
+    opacity: 1;
+}
+/*changes to img4 */
+
+#three{
+    position: relative;
+    float: right;
+    margin: 20px;
+    margin-right: 0px;
+    width: 450px;
+    height: 190px;
+    padding: 4px;
+    background-color: var(--color);
+}
+#three img{
+    width: 450px;
+    height: 190px;
+    opacity: .5;
+    transition: 1s;
+}
+#three img:hover{
+    opacity: 1;
+}
+/*changes to img5 */
+
+#four{
+    position: relative;
+    float: right;
+    margin: 20px;
+    width: 450px;
+    height: 190px;
+    padding: 4px;
+    background-color: var(--color);
+}
+#four img{
+    width: 450px;
+    height: 190px;
+    opacity: .5;
+    transition: 1s;
+}
+#four img:hover{
+    opacity: 1;
+}
+/*changes to blackline */
+
+.vline2{
+        padding: 20px;
+        width: 46px;
+        height: 1005px;
+        padding-bottom: 39px;
+        padding-top: 0px;
+        position: absolute;
+        
+        left: 415px;
+        box-sizing: border-box;
+        border-radius: 20px;
+}
+/*changes to  footer */
+
+.foot{
+    position: relative;
+    left: 150px;
+    bottom: -60px;
+    font-size: 60px;
+    font-family: sans-serif;
+    color:rgb(30, 39, 51);
+    background-color:rgb(178, 175, 175);
+    
+}
+/*changes to links at bottom */
+
+.Con li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 40px;
+    position: relative;
+    float: right;
+    font-size: 22px;
+    top: -70px;
+    text-decoration-line: underline;
+
+}
+/*changes to contact me */
+
+#me2{
+    color:rgb(178, 175, 175) ;
+    background-color: rgb(178, 175, 175);
+}
+/*changes to black line */
+
+.vline3{
+    padding: 20px;
+    width: 46px;
+    height: 180px;
+    padding-bottom: 39px;
+    padding-top: 0px;
+    position: absolute;
+    bottom: -1080px;
+    left: 415px;
+    box-sizing: border-box;
+    
+}
+/*changes to footer */
+
+  footer .Con a {
+    color: rgb(30, 39, 51);
+   
+  }
+  footer .Con a:hover {
+    color: rgb(81, 0, 95);
+    
+  }
+}
+  @media screen and (max-width: 1400px) {
+    header{
+        display: flex;
+        padding: 7px;
+        background-color: rgb(0, 27, 47);
+    }
+    
+    .menu{
+        margin-right: 20px;
+        float: right;
+        font-size: 20px;
+    }
+        
+    .head nav ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style-type: none;
+        margin-top: 7px;
+        margin-right: 75px;
+    }
+    
+    .head nav ul li {
+        display: inline-block;
+        margin-left: 30px;
+        text-decoration: underline rgb(2, 69, 150);
+        color: rgb(2, 69, 150);
+        font-family: sans-serif;
+        flex-wrap: wrap;
+    }
+    span{
+        padding: 1px;
+        background-color: var(--color);
+        padding-left: 40px;
+        font-family:sans-serif;
+        margin-left: -7px;
+        
+    }
+    .container{
+        position: relative;
+    }
+    .container img{
+        width: 100%;
+        height: 300px;
+       
+      
+       
+    }
+    .mypic{
+        position: absolute;
+        top: 200px;
+        width: 150px;
+        height: 150px;
+       
+    }
+    
+    .text{
+        position: absolute;
+        top: 230px;
+        right: 100px;
+        color: rgb(0, 0, 0);
+        padding: 10px;
+        background-color: var(--color);
+        font-size: 200%;
+    }
+    
+    .box2{
+       
+        background-color: rgb(178, 175, 175);
+        position: relative;
+    }
+    .about{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        font-family: sans-serif;
+        font-size: 60px;
+        
+        
+        color:rgb(30, 39, 51) ;
+        
+    }
+    
+    .p{
+       position: relative;
+       text-align: center;
+
+        padding: 20px;
+       
+        background-color: rgb(178, 175, 175);
+        right: 0px;
+        top: 0px;
+    }
+    .me{
+        background-color: rgb(178, 175, 175);
+        color: rgb(178, 175, 175);
+        
+    }
+    
+    .vline{
+        display: flex;
+    
+    padding: 20px;
+    width: 100%;
+    height: 44px;
+    padding-bottom: 39px;
+    padding-top: 0px;
+    position: relative;
+   
+    
+    box-sizing: border-box;
+    align-items: baseline;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    }
+   
+
+    /*.work{
+        padding-right: 400px;
+        padding-bottom: 985px;
+        background-color:rgb(178, 175, 175);
+       float: left;
+       text-align: center;
+    }*/
+    .work2{
+        display: flex;
+        justify-content: center;
+        left: 240px;
+        font-size: 60px;
+        font-family: sans-serif;
+        color:rgb(30, 39, 51);
+        
+    }
+    .vline2{
+    display: flex;
+    
+    padding: 20px;
+    width: 100%;
+    height: 44px;
+    padding-bottom: 39px;
+    padding-top: 0px;
+    position: relative;
+   
+    
+    box-sizing: border-box;
+    align-items: baseline;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap
+  }
+  .firstbox{
+    background-color: rgb(12, 4, 50);
+    position: relative;
+    padding: 4px;
+    background-color: rgb(115, 181, 225);
+    
+    
+}
+.firstbox img{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    opacity: .5;
+}
+.firstbox img:hover{
+    opacity: 1;
+    
+}
+
+.sub2{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 23px;
+    padding-right: 100px;
+    background-color: var(--color);
+    position: absolute;
+   
+    top: 320px;
+   
+    
+   
+   
+}
+#one{
+    position: relative;
+    float: right;
+    margin-top: 20px;
+
+padding: 4px;
+background-color: var(--color);
+}
+#one img{
+    width: 100%;
+    height: 190px;
+    opacity: .5;
+    transition: 1s;
+    flex: 1;
+}
+#one img:hover{
+    opacity: 1;
+}
+
+.sub3{
+    position: absolute;
+    padding: 7px;
+    padding-right: 50px;
+    background-color: var(--color);
+    top: 100px;
+    font-size: 10px;
+    
+}
+#two{
+margin-top: 20px;
+padding: 1px;
+position: relative;
+float: right;
+
+padding: 4px;
+background-color: var(--color);
+}
+#two img{
+width: 100%;
+height: 190px;
+opacity: .5;
+transition: 1s;
+flex: 1;
+}
+#two img:hover{
+opacity: 1;
+}
+#three{
+position: relative;
+float: right;
+margin-top: 20px;
+
+padding: 4px;
+background-color: var(--color);
+flex: 1;
+}
+#three img{
+width: 100%;
+height: 190px;
+opacity: .5;
+transition: 1s;
+}
+#three img:hover{
+opacity: 1;
+}
+#four{
+position: relative;
+float: right;
+margin-top: 20px;
+
+padding: 4px;
+background-color: var(--color);
+flex: 1;
+}
+#four img{
+width: 100%;
+height: 190px;
+opacity: .5;
+transition: 1s;
+}
+#four img:hover{
+opacity: 1;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+   flex: 1 1 1 1;
+
+}
+.foot{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   
+    font-size: 60px;
+    font-family: sans-serif;
+    color:rgb(30, 39, 51);
+    background-color:rgb(178, 175, 175);
+    
+}
+.con{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+.Con li {
+   
+   
+    position: relative;
+    float: right;
+    font-size: 22px;
+    margin: 10px 60px 20px 10px;
+    text-decoration-line: underline;
+
+}
+#me2{
+    color:rgb(178, 175, 175) ;
+    background-color: rgb(178, 175, 175);
+    
+}
+.vline3{
+    display: flex;
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    height: 44px;
+    padding-bottom: 39px;
+    padding-top: 0px;
+    position: relative;
+    box-sizing: border-box;
+    align-items: baseline;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap
+
+}
+
+.background{
+    padding: 1000px;
+    padding-bottom: 1600px;
+    padding-right: 440px;
+   top: -3px;
+   z-index: -20;
+    position: absolute;
+    background-color: rgb(178, 175, 175);
+}
+}
+  .Con a {
+    
+    color: rgb(30, 39, 51);
+   
+   
+  }
+   .Con a:hover {
+    color: rgb(81, 0, 95);
+    
+  }
+
