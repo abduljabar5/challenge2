@@ -5,13 +5,13 @@ This project was a little tricky, but what kept me motivated was the little chal
 
 ## Installation
 
-https://abduljabar5.github.io/challenge2/Links
+https://abduljabar5.github.io/challenge2/
 
 ## Usage
 
 click on any of the opions on the top of the page to learn more about me.
 
-![Alt text](assets/img/challenge1.png)
+![Alt text](assets/img/portfolio.png)
 
 ## Credits
 google.com <br>

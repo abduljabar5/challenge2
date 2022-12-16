@@ -150,6 +150,7 @@ span{
     position: relative;
     float: right;
     padding: 4px;
+    margin-right: 20px;
     background-color: rgb(115, 181, 225);
     
     
@@ -157,7 +158,7 @@ span{
 /*changes to big img */
 
 .firstbox img{
-    width: 946px;
+    width: 928px;
     height: 498px;
     transition: 1s;
     opacity: .5;
