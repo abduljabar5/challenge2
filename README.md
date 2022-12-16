@@ -5,7 +5,7 @@ This project was a little tricky, but what kept me motivated was the little chal
 
 ## Installation
 
-https://abduljabar5.github.io/Challenge-2/
+https://abduljabar5.github.io/challenge2/Links
 
 ## Usage
 
